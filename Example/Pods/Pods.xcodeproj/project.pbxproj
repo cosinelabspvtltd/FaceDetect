@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1677872695A185829E754DBF27A5A14A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		1931B96957EF59571CC3253EC81143EC /* Pods-FeshDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED0692C82F55325FF13981616C507 /* Pods-FeshDetect_Tests-dummy.m */; };
+		21F23576B17253F4BA31C80714236FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		586FAA81220307080059DC37 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586FAA80220307080059DC37 /* Service.swift */; };
+		7F5FDD1B365E58678A0159D74A6C2056 /* FeshDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B401CF4672907F172171551FBA24045A /* FeshDetect-dummy.m */; };
+		853A9A89BC675F1EAB12079FAE60C78A /* Pods-FeshDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F8F128FAF1814EEDA74B3CCE0B611 /* Pods-FeshDetect_Example-dummy.m */; };
+		B07B66B3CE21D553F965BCD130BBEA1F /* Pods-FeshDetect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA706B232350190F6C559CC70C154F7B /* Pods-FeshDetect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23DF1CF30E830BB579CEAEF638F4D96 /* Pods-FeshDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE768436B31342068ECA275D6E1620BC /* Pods-FeshDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD145EEB271FCD68360685E38933FAAA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1EE2ED1A63A93AE42E1E42D8F15009 /* ReplaceMe.swift */; };
+		E62EFE0DF826CF7775CF2899692FDA62 /* FeshDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630A13BFB4EF36939CB1F7673044FA80 /* FeshDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8B7A5E74DE1A40D39402E54470DE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BAE946C27755C43B5BFF8D9FA501241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21329661B6D1AE0588A6B6858ACF6446;
+			remoteInfo = "Pods-FeshDetect_Example";
+		};
+		7C24015ACCC4971BF4F7EDA53ED78878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF69BE0F62E190C5D4315A6FB82C38F;
+			remoteInfo = FeshDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0674D643CCC7C33E16733C58D7490AFF /* Pods-FeshDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeshDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C50A08D4FF42CD58FD200E1A72D763F /* FeshDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FeshDetect-Info.plist"; sourceTree = "<group>"; };
+		0C9F2A62C6D8D0E423DE9DFB757DB4C8 /* Pods-FeshDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeshDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1485E1D9FA6A1688AFF99F689A0EB35B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		15248CC51E13E788AED4D2A704B986B1 /* FeshDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeshDetect.modulemap; sourceTree = "<group>"; };
+		1C433F5FE0612C5B84F58A987D02FD5C /* Pods-FeshDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeshDetect_Example.modulemap"; sourceTree = "<group>"; };
+		1F77068B3458EFA1E91EC0FC9716EEE7 /* Pods-FeshDetect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeshDetect_Tests-Info.plist"; sourceTree = "<group>"; };
+		2EAAA3DDD803E3036F7144101F6CD014 /* Pods-FeshDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeshDetect_Tests.modulemap"; sourceTree = "<group>"; };
+		38272E4C16356A7EEC1D88EAB8FB8266 /* Pods-FeshDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeshDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3EF6353F473D423C8EA279464C750E78 /* FeshDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FeshDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		439E72B7DDA6D904C591DAE73D81DB85 /* FeshDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeshDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8F8F128FAF1814EEDA74B3CCE0B611 /* Pods-FeshDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeshDetect_Example-dummy.m"; sourceTree = "<group>"; };
+		557AC8D35621CA90237CEA1DCBF8E9FF /* Pods-FeshDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeshDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		586FAA80220307080059DC37 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = FeshDetect/Classes/Service.swift; sourceTree = "<group>"; };
+		5936423C5EB4C9C27CAB2CE96B351D86 /* Pods-FeshDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeshDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		597BEC3C31F7E32EDC32268E1982ABEB /* Pods_FeshDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeshDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630A13BFB4EF36939CB1F7673044FA80 /* FeshDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeshDetect-umbrella.h"; sourceTree = "<group>"; };
+		6353FD8AB77B457250962518A37F8B6E /* Pods_FeshDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeshDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		735AECF9C392E3A3133021F683168FE9 /* Pods-FeshDetect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeshDetect_Example-Info.plist"; sourceTree = "<group>"; };
+		744CE9055B4E1FC18070DE4513B19D4D /* FeshDetect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeshDetect.xcconfig; sourceTree = "<group>"; };
+		7553933B2A90BFC68F0772A204BE5123 /* Pods-FeshDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeshDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9504179D3E9CD5A5A90566E60B69D6AD /* FeshDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeshDetect-prefix.pch"; sourceTree = "<group>"; };
+		A2578964D781586452E220A407BBE44B /* Pods-FeshDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeshDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B401CF4672907F172171551FBA24045A /* FeshDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeshDetect-dummy.m"; sourceTree = "<group>"; };
+		BA706B232350190F6C559CC70C154F7B /* Pods-FeshDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeshDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED1EE2ED1A63A93AE42E1E42D8F15009 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FeshDetect/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F1902D1F4AD84848A4876FEF7BE85B6A /* Pods-FeshDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeshDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F62554A8F8862F168F66F30D59E415D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F99FE181636E80F94197D541C8B6F78C /* Pods-FeshDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeshDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE768436B31342068ECA275D6E1620BC /* Pods-FeshDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeshDetect_Example-umbrella.h"; sourceTree = "<group>"; };
+		FF4ED0692C82F55325FF13981616C507 /* Pods-FeshDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeshDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570F0780E69295E21335F73C85D5BF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1677872695A185829E754DBF27A5A14A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F2604F5E2202AE54E952F56AF6973C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F23576B17253F4BA31C80714236FC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30B1EE06CA9F2428DF2AC6715C666D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8B7A5E74DE1A40D39402E54470DE76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1BD2AEB3EB85AA3104A769D5F2D31A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3EF6353F473D423C8EA279464C750E78 /* FeshDetect.podspec */,
+				1485E1D9FA6A1688AFF99F689A0EB35B /* LICENSE */,
+				F62554A8F8862F168F66F30D59E415D5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		27D82D912BC3737E7B1E6F45213F72BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7343D9E8751F4AE1704B893B3A2889BC /* FeshDetect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7343D9E8751F4AE1704B893B3A2889BC /* FeshDetect */ = {
+			isa = PBXGroup;
+			children = (
+				ED1EE2ED1A63A93AE42E1E42D8F15009 /* ReplaceMe.swift */,
+				1C1BD2AEB3EB85AA3104A769D5F2D31A /* Pod */,
+				EAE009E9230E942F65660CB24153133F /* Support Files */,
+				586FAA80220307080059DC37 /* Service.swift */,
+			);
+			name = FeshDetect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				27D82D912BC3737E7B1E6F45213F72BE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E99EBC5AFF9BBD2696811DBC4DC04FFE /* Products */,
+				9F832753BE96ABE58A85AD195D516B0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F832753BE96ABE58A85AD195D516B0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60E32D9F1E1327FD6ABFC2744F6FE86 /* Pods-FeshDetect_Example */,
+				F45545E4264359510FD082088EE16153 /* Pods-FeshDetect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60E32D9F1E1327FD6ABFC2744F6FE86 /* Pods-FeshDetect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1C433F5FE0612C5B84F58A987D02FD5C /* Pods-FeshDetect_Example.modulemap */,
+				F1902D1F4AD84848A4876FEF7BE85B6A /* Pods-FeshDetect_Example-acknowledgements.markdown */,
+				5936423C5EB4C9C27CAB2CE96B351D86 /* Pods-FeshDetect_Example-acknowledgements.plist */,
+				4D8F8F128FAF1814EEDA74B3CCE0B611 /* Pods-FeshDetect_Example-dummy.m */,
+				38272E4C16356A7EEC1D88EAB8FB8266 /* Pods-FeshDetect_Example-frameworks.sh */,
+				735AECF9C392E3A3133021F683168FE9 /* Pods-FeshDetect_Example-Info.plist */,
+				FE768436B31342068ECA275D6E1620BC /* Pods-FeshDetect_Example-umbrella.h */,
+				0C9F2A62C6D8D0E423DE9DFB757DB4C8 /* Pods-FeshDetect_Example.debug.xcconfig */,
+				557AC8D35621CA90237CEA1DCBF8E9FF /* Pods-FeshDetect_Example.release.xcconfig */,
+			);
+			name = "Pods-FeshDetect_Example";
+			path = "Target Support Files/Pods-FeshDetect_Example";
+			sourceTree = "<group>";
+		};
+		E99EBC5AFF9BBD2696811DBC4DC04FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439E72B7DDA6D904C591DAE73D81DB85 /* FeshDetect.framework */,
+				597BEC3C31F7E32EDC32268E1982ABEB /* Pods_FeshDetect_Example.framework */,
+				6353FD8AB77B457250962518A37F8B6E /* Pods_FeshDetect_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE009E9230E942F65660CB24153133F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15248CC51E13E788AED4D2A704B986B1 /* FeshDetect.modulemap */,
+				744CE9055B4E1FC18070DE4513B19D4D /* FeshDetect.xcconfig */,
+				B401CF4672907F172171551FBA24045A /* FeshDetect-dummy.m */,
+				0C50A08D4FF42CD58FD200E1A72D763F /* FeshDetect-Info.plist */,
+				9504179D3E9CD5A5A90566E60B69D6AD /* FeshDetect-prefix.pch */,
+				630A13BFB4EF36939CB1F7673044FA80 /* FeshDetect-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FeshDetect";
+			sourceTree = "<group>";
+		};
+		F45545E4264359510FD082088EE16153 /* Pods-FeshDetect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EAAA3DDD803E3036F7144101F6CD014 /* Pods-FeshDetect_Tests.modulemap */,
+				A2578964D781586452E220A407BBE44B /* Pods-FeshDetect_Tests-acknowledgements.markdown */,
+				F99FE181636E80F94197D541C8B6F78C /* Pods-FeshDetect_Tests-acknowledgements.plist */,
+				FF4ED0692C82F55325FF13981616C507 /* Pods-FeshDetect_Tests-dummy.m */,
+				1F77068B3458EFA1E91EC0FC9716EEE7 /* Pods-FeshDetect_Tests-Info.plist */,
+				BA706B232350190F6C559CC70C154F7B /* Pods-FeshDetect_Tests-umbrella.h */,
+				0674D643CCC7C33E16733C58D7490AFF /* Pods-FeshDetect_Tests.debug.xcconfig */,
+				7553933B2A90BFC68F0772A204BE5123 /* Pods-FeshDetect_Tests.release.xcconfig */,
+			);
+			name = "Pods-FeshDetect_Tests";
+			path = "Target Support Files/Pods-FeshDetect_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B362646E93EE6814A7F732CF23CB5E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23DF1CF30E830BB579CEAEF638F4D96 /* Pods-FeshDetect_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7280658B97B4A23E4A6C4BAAC540BD6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07B66B3CE21D553F965BCD130BBEA1F /* Pods-FeshDetect_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D971FBA38355730E1C332EF1DA574223 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62EFE0DF826CF7775CF2899692FDA62 /* FeshDetect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21329661B6D1AE0588A6B6858ACF6446 /* Pods-FeshDetect_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6F353548C8F7AA5D140FDD80596C49 /* Build configuration list for PBXNativeTarget "Pods-FeshDetect_Example" */;
+			buildPhases = (
+				6B362646E93EE6814A7F732CF23CB5E9 /* Headers */,
+				A433C30C0C990680471AFF654200F523 /* Sources */,
+				DF30B1EE06CA9F2428DF2AC6715C666D /* Frameworks */,
+				2104ED6E0A97A4A83BAC1926F49641C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C8A66B324B7E9861370AC3C98A837F /* PBXTargetDependency */,
+			);
+			name = "Pods-FeshDetect_Example";
+			productName = "Pods-FeshDetect_Example";
+			productReference = 597BEC3C31F7E32EDC32268E1982ABEB /* Pods_FeshDetect_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5284A940E094C76802FE1FC9956A6C87 /* Pods-FeshDetect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FA2E52C6BD776A2FC69758ABB60C1E /* Build configuration list for PBXNativeTarget "Pods-FeshDetect_Tests" */;
+			buildPhases = (
+				7280658B97B4A23E4A6C4BAAC540BD6C /* Headers */,
+				4D8A13DC3A9D00F8E2A6887E55845622 /* Sources */,
+				92F2604F5E2202AE54E952F56AF6973C /* Frameworks */,
+				28159D1765FC3F6E6DC5423DAFF3AFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAABE99A5EE8C16DABF83E8695CAD9FB /* PBXTargetDependency */,
+			);
+			name = "Pods-FeshDetect_Tests";
+			productName = "Pods-FeshDetect_Tests";
+			productReference = 6353FD8AB77B457250962518A37F8B6E /* Pods_FeshDetect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBF69BE0F62E190C5D4315A6FB82C38F /* FeshDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14EB13BAA0C8C6B8DC4CA2CCEC54FC6 /* Build configuration list for PBXNativeTarget "FeshDetect" */;
+			buildPhases = (
+				D971FBA38355730E1C332EF1DA574223 /* Headers */,
+				18B9B3B96BAEF4D3D38672FA9123140C /* Sources */,
+				570F0780E69295E21335F73C85D5BF7F /* Frameworks */,
+				88709A78CCF0FD11782E24C56731ACBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeshDetect;
+			productName = FeshDetect;
+			productReference = 439E72B7DDA6D904C591DAE73D81DB85 /* FeshDetect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E99EBC5AFF9BBD2696811DBC4DC04FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF69BE0F62E190C5D4315A6FB82C38F /* FeshDetect */,
+				21329661B6D1AE0588A6B6858ACF6446 /* Pods-FeshDetect_Example */,
+				5284A940E094C76802FE1FC9956A6C87 /* Pods-FeshDetect_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2104ED6E0A97A4A83BAC1926F49641C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28159D1765FC3F6E6DC5423DAFF3AFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88709A78CCF0FD11782E24C56731ACBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B9B3B96BAEF4D3D38672FA9123140C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5FDD1B365E58678A0159D74A6C2056 /* FeshDetect-dummy.m in Sources */,
+				DD145EEB271FCD68360685E38933FAAA /* ReplaceMe.swift in Sources */,
+				586FAA81220307080059DC37 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8A13DC3A9D00F8E2A6887E55845622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1931B96957EF59571CC3253EC81143EC /* Pods-FeshDetect_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A433C30C0C990680471AFF654200F523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A9A89BC675F1EAB12079FAE60C78A /* Pods-FeshDetect_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C8A66B324B7E9861370AC3C98A837F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeshDetect;
+			target = EBF69BE0F62E190C5D4315A6FB82C38F /* FeshDetect */;
+			targetProxy = 7C24015ACCC4971BF4F7EDA53ED78878 /* PBXContainerItemProxy */;
+		};
+		EAABE99A5EE8C16DABF83E8695CAD9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FeshDetect_Example";
+			target = 21329661B6D1AE0588A6B6858ACF6446 /* Pods-FeshDetect_Example */;
+			targetProxy = 7BAE946C27755C43B5BFF8D9FA501241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A865A5084285915C6B53A0C24AFA703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744CE9055B4E1FC18070DE4513B19D4D /* FeshDetect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeshDetect/FeshDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeshDetect/FeshDetect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FeshDetect/FeshDetect.modulemap";
+				PRODUCT_MODULE_NAME = FeshDetect;
+				PRODUCT_NAME = FeshDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		551FF1B1C58944CD7177D1A0B78C1C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744CE9055B4E1FC18070DE4513B19D4D /* FeshDetect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeshDetect/FeshDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeshDetect/FeshDetect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FeshDetect/FeshDetect.modulemap";
+				PRODUCT_MODULE_NAME = FeshDetect;
+				PRODUCT_NAME = FeshDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B21E150B8B1E7AACBEED74C8F7215AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9F2A62C6D8D0E423DE9DFB757DB4C8 /* Pods-FeshDetect_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FeshDetect_Example/Pods-FeshDetect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeshDetect_Example/Pods-FeshDetect_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D3622B4934E2892B7DA0E6DC65088CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557AC8D35621CA90237CEA1DCBF8E9FF /* Pods-FeshDetect_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FeshDetect_Example/Pods-FeshDetect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeshDetect_Example/Pods-FeshDetect_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		861BA0F96C177FBDF391534E13404481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0674D643CCC7C33E16733C58D7490AFF /* Pods-FeshDetect_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FeshDetect_Tests/Pods-FeshDetect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeshDetect_Tests/Pods-FeshDetect_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9A7B9C377B47B91B3A86D4E32A261CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7553933B2A90BFC68F0772A204BE5123 /* Pods-FeshDetect_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FeshDetect_Tests/Pods-FeshDetect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeshDetect_Tests/Pods-FeshDetect_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A6F353548C8F7AA5D140FDD80596C49 /* Build configuration list for PBXNativeTarget "Pods-FeshDetect_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B21E150B8B1E7AACBEED74C8F7215AA /* Debug */,
+				7D3622B4934E2892B7DA0E6DC65088CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FA2E52C6BD776A2FC69758ABB60C1E /* Build configuration list for PBXNativeTarget "Pods-FeshDetect_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861BA0F96C177FBDF391534E13404481 /* Debug */,
+				E9A7B9C377B47B91B3A86D4E32A261CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14EB13BAA0C8C6B8DC4CA2CCEC54FC6 /* Build configuration list for PBXNativeTarget "FeshDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A865A5084285915C6B53A0C24AFA703 /* Debug */,
+				551FF1B1C58944CD7177D1A0B78C1C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

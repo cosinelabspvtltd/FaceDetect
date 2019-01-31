@@ -1,0 +1,6 @@
+framework module FeshDetect {
+  umbrella header "FeshDetect-umbrella.h"
+
+  export *
+  module * { export * }
+}

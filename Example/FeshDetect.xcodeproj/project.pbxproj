@@ -42,9 +42,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		65ED21539E3E498B3D251FA5 /* Pods_FeshDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeshDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		755D112479A182BB638EDBE6 /* Pods-FeshDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeshDetect_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FeshDetect_Tests/Pods-FeshDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		857E3DB7433AD1E2A56C227C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8814EE38CB3C65192970026D /* FeshDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FeshDetect.podspec; path = ../FeshDetect.podspec; sourceTree = "<group>"; };
-		8C3EAB7E16249AC0D1B6901E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		857E3DB7433AD1E2A56C227C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8814EE38CB3C65192970026D /* FeshDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FeshDetect.podspec; path = ../FeshDetect.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C3EAB7E16249AC0D1B6901E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B75791C5551652F8A6607EF3 /* Pods-FeshDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeshDetect_Example.release.xcconfig"; path = "Target Support Files/Pods-FeshDetect_Example/Pods-FeshDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB0C93592392B748BB7713AC /* Pods-FeshDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeshDetect_Example.debug.xcconfig"; path = "Target Support Files/Pods-FeshDetect_Example/Pods-FeshDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,6 @@
 				755D112479A182BB638EDBE6 /* Pods-FeshDetect_Tests.debug.xcconfig */,
 				3C2BD2E52563949C5713979F /* Pods-FeshDetect_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

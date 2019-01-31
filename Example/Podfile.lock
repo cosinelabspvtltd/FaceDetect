@@ -1,0 +1,16 @@
+PODS:
+  - FeshDetect (0.1.0)
+
+DEPENDENCIES:
+  - FeshDetect (from `../`)
+
+EXTERNAL SOURCES:
+  FeshDetect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FeshDetect: 0af135e79f059bde0de5962564c864f5beb0d68f
+
+PODFILE CHECKSUM: 41846df3ad4652a8ba458953a6ef35f713f8c267
+
+COCOAPODS: 1.6.0.beta.2
