@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FeshDetect'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'a Useless label library used in a FeshDetect!'
   s.swift_version    = '4.2'
 
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 a Useless label library used in a FeshDetect! a Useless label library used in a FeshDetect!
                        DESC
 
-  s.homepage         = 'https://github.com/debayanbhattacharya/FeshDetect'
+  s.homepage         = 'https://github.com/cosinelabspvtltd/FeshDetect.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'debayanbhattacharya' => 'subhajit.mondal@cosinelabs.com' }
-  s.source           = { :git => 'https://github.com/debayanbhattacharya/FeshDetect.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://SubhajitCosineLabs:SM12345sm@github.com/cosinelabspvtltd/FeshDetect.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
