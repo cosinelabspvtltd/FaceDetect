@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FeshDetect_Example' do
+  pod 'FeshDetect', :path => '../'
+
+  target 'FeshDetect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
