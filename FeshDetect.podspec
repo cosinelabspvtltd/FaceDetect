@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FeshDetect'
+  s.name             = 'FaceDetect'
   s.version          = '0.3.0'
   s.summary          = 'a Useless label library used in a FeshDetect!'
   s.swift_version    = '4.2'
@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-a Useless label library used in a FeshDetect! a Useless label library used in a FeshDetect!
+a  library used in a FaceDetect!
                        DESC
 
-  s.homepage         = 'https://github.com/cosinelabspvtltd/FeshDetect.git'
+  s.homepage         = 'https://github.com/cosinelabspvtltd/FaceDetect.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'debayanbhattacharya' => 'subhajit.mondal@cosinelabs.com' }
-  s.source           = { :git => 'https://SubhajitCosineLabs:SM12345sm@github.com/cosinelabspvtltd/FeshDetect.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cosinelabspvtltd/FaceDetect.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
