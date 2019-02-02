@@ -1,9 +1,9 @@
-# FeshDetect
+# FaceDetect
 
 [![CI Status](https://img.shields.io/travis/debayanbhattacharya/FeshDetect.svg?style=flat)](https://travis-ci.org/debayanbhattacharya/FeshDetect)
-[![Version](https://img.shields.io/cocoapods/v/FeshDetect.svg?style=flat)](https://cocoapods.org/pods/FeshDetect)
-[![License](https://img.shields.io/cocoapods/l/FeshDetect.svg?style=flat)](https://cocoapods.org/pods/FeshDetect)
-[![Platform](https://img.shields.io/cocoapods/p/FeshDetect.svg?style=flat)](https://cocoapods.org/pods/FeshDetect)
+[![Version](https://img.shields.io/cocoapods/v/FaceDetect.svg?style=flat)](https://cocoapods.org/pods/FaceDetect)
+[![License](https://img.shields.io/cocoapods/l/FaceDetect.svg?style=flat)](https://cocoapods.org/pods/FaceDetect)
+[![Platform](https://img.shields.io/cocoapods/p/FaceDetect.svg?style=flat)](https://cocoapods.org/pods/FaceDetect)
 
 ## Example
 
@@ -17,7 +17,7 @@ FaceDetect is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FeshDetect'
+pod 'FaceDetect'
 ```
 
 ## Author
